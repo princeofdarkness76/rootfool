@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3695D4281C2C5AD100EC5B9B /* rootfool gui.profdata in Resources */ = {isa = PBXBuildFile; fileRef = 3695D4261C2C5ACC00EC5B9B /* rootfool gui.profdata */; };
+		3695D4291C2C5AD200EC5B9B /* rootfool gui.profdata in Resources */ = {isa = PBXBuildFile; fileRef = 3695D4261C2C5ACC00EC5B9B /* rootfool gui.profdata */; };
 		7B24C0651BC571C400582D35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B24C0641BC571C400582D35 /* AppDelegate.m */; };
 		7B24C0671BC571C400582D35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B24C0661BC571C400582D35 /* main.m */; };
 		7B24C0691BC571C400582D35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B24C0681BC571C400582D35 /* Images.xcassets */; };
@@ -16,7 +18,7 @@
 		7B24C0B81BC57A9C00582D35 /* status-available.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7B24C0B51BC57A9C00582D35 /* status-available.tiff */; };
 		7B24C0B91BC57A9C00582D35 /* status-away.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7B24C0B61BC57A9C00582D35 /* status-away.tiff */; };
 		7B24C0BD1BC57F9300582D35 /* kernelControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B24C0BB1BC57F9300582D35 /* kernelControl.m */; };
-		7B4468481BCC098500B19C8E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7B4468471BCC098500B19C8E /* Credits.rtf */; settings = {ASSET_TAGS = (); }; };
+		7B4468481BCC098500B19C8E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7B4468471BCC098500B19C8E /* Credits.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3695D4251C2C5ACC00EC5B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = "Base.lproj/rootfool gui.profdata"; sourceTree = "<group>"; };
+		3695D4271C2C5AD000EC5B9B /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = "en.lproj/rootfool gui.profdata"; sourceTree = "<group>"; };
+		3695D42A1C2C5D0400EC5B9B /* rootfool gui.profdata */ = {isa = PBXFileReference; lastKnownFileType = file; path = "rootfool gui.profdata"; sourceTree = "<group>"; };
 		7B24C05E1BC571C400582D35 /* rootfool gui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rootfool gui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B24C0621BC571C400582D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B24C0631BC571C400582D35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,12 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3695D4231C2C59A700EC5B9B /* OptimizationProfiles */ = {
+			isa = PBXGroup;
+			children = (
+				3695D4261C2C5ACC00EC5B9B /* rootfool gui.profdata */,
+				3695D42A1C2C5D0400EC5B9B /* rootfool gui.profdata */,
+			);
+			path = OptimizationProfiles;
+			sourceTree = "<group>";
+		};
 		7B24C0551BC571C300582D35 = {
 			isa = PBXGroup;
 			children = (
 				7B24C0601BC571C400582D35 /* rootfool gui */,
 				7B24C0741BC571C400582D35 /* rootfool guiTests */,
 				7B24C05F1BC571C400582D35 /* Products */,
+				3695D4231C2C59A700EC5B9B /* OptimizationProfiles */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,7 +189,7 @@
 		7B24C0561BC571C300582D35 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Sentinel One";
 				TargetAttributes = {
 					7B24C05D1BC571C400582D35 = {
@@ -216,6 +231,7 @@
 				7B24C06C1BC571C400582D35 /* MainMenu.xib in Resources */,
 				7B24C0B81BC57A9C00582D35 /* status-available.tiff in Resources */,
 				7B24C0B71BC57A9C00582D35 /* cat_fish.png in Resources */,
+				3695D4281C2C5AD100EC5B9B /* rootfool gui.profdata in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3695D4291C2C5AD200EC5B9B /* rootfool gui.profdata in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +275,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		3695D4261C2C5ACC00EC5B9B /* rootfool gui.profdata */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3695D4251C2C5ACC00EC5B9B /* Base */,
+				3695D4271C2C5AD000EC5B9B /* en */,
+			);
+			name = "rootfool gui.profdata";
+			sourceTree = "<group>";
+		};
 		7B24C06A1BC571C400582D35 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,6 +315,7 @@
 				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -349,10 +376,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "rootfool gui/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sentinelone.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -361,10 +390,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "rootfool gui/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sentinelone.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -384,6 +415,7 @@
 				);
 				INFOPLIST_FILE = "rootfool guiTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sentinelone.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rootfool gui.app/Contents/MacOS/rootfool gui";
 			};
@@ -400,6 +432,7 @@
 				);
 				INFOPLIST_FILE = "rootfool guiTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sentinelone.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rootfool gui.app/Contents/MacOS/rootfool gui";
 			};
