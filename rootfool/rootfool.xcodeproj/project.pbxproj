@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3695D42B1C2C6FAE00EC5B9B /* rootfool.kext in Resources */ = {isa = PBXBuildFile; fileRef = 7B24C0491BC571B300582D35 /* rootfool.kext */; };
 		7B24C04F1BC571B300582D35 /* rootfool.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B24C04E1BC571B300582D35 /* rootfool.c */; };
 		7B24C0B01BC5749200582D35 /* kernel_symbols.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B24C0971BC5749200582D35 /* kernel_symbols.c */; };
 		7B24C0B11BC5749200582D35 /* kernel_symbols.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B24C0981BC5749200582D35 /* kernel_symbols.h */; };
@@ -149,6 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3695D42B1C2C6FAE00EC5B9B /* rootfool.kext in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
