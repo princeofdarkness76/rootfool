@@ -173,6 +173,7 @@
 		7B24C0401BC571B300582D35 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = "Objective-C";
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Studiogit;
 				TargetAttributes = {

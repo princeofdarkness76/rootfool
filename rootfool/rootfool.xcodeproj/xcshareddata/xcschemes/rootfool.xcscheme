@@ -27,31 +27,19 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES"
-      enableAddressSanitizer = "YES">
+      codeCoverageEnabled = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7B24C0481BC571B300582D35"
+            BuildableName = "rootfool.kext"
+            BlueprintName = "rootfool"
+            ReferencedContainer = "container:rootfool.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
-         <AdditionalOption
-            key = "DYLD_PRINT_LIBRARIES"
-            value = ""
-            isEnabled = "YES">
-         </AdditionalOption>
-         <AdditionalOption
-            key = "DYLD_PRINT_APIS"
-            value = ""
-            isEnabled = "YES">
-         </AdditionalOption>
-         <AdditionalOption
-            key = "NSZombieEnabled"
-            value = "YES"
-            isEnabled = "YES">
-         </AdditionalOption>
-         <AdditionalOption
-            key = "NSDOLoggingEnabled"
-            value = "YES"
-            isEnabled = "YES">
-         </AdditionalOption>
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
@@ -80,17 +68,19 @@
       buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
-      useCustomWorkingDirectory = "NO"
+      useCustomWorkingDirectory = "YES"
+      customWorkingDirectory = "/Users/stevenjames2/Library/Developer/Xcode/DerivedData/rootfool-boakrgpmyhvfincoimbpwxddwtvo/Build"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7B24C0481BC571B300582D35"
-            BuildableName = "rootfool.kext"
-            BlueprintName = "rootfool"
-            ReferencedContainer = "container:rootfool.xcodeproj">
+            BlueprintIdentifier = "7B24C05D1BC571C400582D35"
+            BuildableName = "rootfool gui.app"
+            BlueprintName = "rootfool gui"
+            ReferencedContainer = "container:../rootfool gui/rootfool gui.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

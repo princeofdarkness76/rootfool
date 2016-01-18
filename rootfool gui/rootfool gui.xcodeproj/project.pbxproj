@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3695D4281C2C5AD100EC5B9B /* rootfool gui.profdata in Resources */ = {isa = PBXBuildFile; fileRef = 3695D4261C2C5ACC00EC5B9B /* rootfool gui.profdata */; };
 		3695D4291C2C5AD200EC5B9B /* rootfool gui.profdata in Resources */ = {isa = PBXBuildFile; fileRef = 3695D4261C2C5ACC00EC5B9B /* rootfool gui.profdata */; };
+		3882BBBF1C4D77D80062EB29 /* Driver.m in Sources */ = {isa = PBXBuildFile; fileRef = 3882BBBE1C4D77D80062EB29 /* Driver.m */; };
+		3882BBC01C4D77D80062EB29 /* Driver.m in Sources */ = {isa = PBXBuildFile; fileRef = 3882BBBE1C4D77D80062EB29 /* Driver.m */; };
 		7B24C0651BC571C400582D35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B24C0641BC571C400582D35 /* AppDelegate.m */; };
 		7B24C0671BC571C400582D35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B24C0661BC571C400582D35 /* main.m */; };
 		7B24C0691BC571C400582D35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B24C0681BC571C400582D35 /* Images.xcassets */; };
@@ -35,6 +37,8 @@
 		3695D4251C2C5ACC00EC5B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = "Base.lproj/rootfool gui.profdata"; sourceTree = "<group>"; };
 		3695D4271C2C5AD000EC5B9B /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = "en.lproj/rootfool gui.profdata"; sourceTree = "<group>"; };
 		3695D42A1C2C5D0400EC5B9B /* rootfool gui.profdata */ = {isa = PBXFileReference; lastKnownFileType = file; path = "rootfool gui.profdata"; sourceTree = "<group>"; };
+		3882BBBD1C4D77D80062EB29 /* Driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Driver.h; sourceTree = "<group>"; };
+		3882BBBE1C4D77D80062EB29 /* Driver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Driver.m; sourceTree = "<group>"; };
 		7B24C05E1BC571C400582D35 /* rootfool gui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rootfool gui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B24C0621BC571C400582D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B24C0631BC571C400582D35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,6 +88,8 @@
 		7B24C0551BC571C300582D35 = {
 			isa = PBXGroup;
 			children = (
+				3882BBBD1C4D77D80062EB29 /* Driver.h */,
+				3882BBBE1C4D77D80062EB29 /* Driver.m */,
 				7B24C0601BC571C400582D35 /* rootfool gui */,
 				7B24C0741BC571C400582D35 /* rootfool guiTests */,
 				7B24C05F1BC571C400582D35 /* Products */,
@@ -253,6 +259,7 @@
 				7B24C0671BC571C400582D35 /* main.m in Sources */,
 				7B24C0BD1BC57F9300582D35 /* kernelControl.m in Sources */,
 				7B24C0651BC571C400582D35 /* AppDelegate.m in Sources */,
+				3882BBBF1C4D77D80062EB29 /* Driver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B24C0781BC571C400582D35 /* rootfool_guiTests.m in Sources */,
+				3882BBC01C4D77D80062EB29 /* Driver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
