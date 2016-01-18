@@ -17,6 +17,54 @@
 		7B24C0C31BC5F37700582D35 /* shared_data.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B24C0C21BC5F37700582D35 /* shared_data.h */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXBuildRule section */
+		3882BBB81C4D704F0062EB29 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = wrapper.scnassets;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# copySceneKitAssets\n";
+		};
+		3882BBB91C4D70530062EB29 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = text.plist;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# builtin-copyPlist\n";
+		};
+		3882BBBA1C4D70560062EB29 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = sourcecode.metal;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# <com.apple.compilers.metal.osx>\n";
+		};
+		3882BBBB1C4D70720062EB29 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = sourcecode.dtrace;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "/usr/sbin/dtrace\n";
+		};
+		3882BBBC1C4D709B0062EB29 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = file.xib;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# ibtool\n";
+		};
+/* End PBXBuildRule section */
+
 /* Begin PBXFileReference section */
 		7B24C0491BC571B300582D35 /* rootfool.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rootfool.kext; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B24C04D1BC571B300582D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -106,6 +154,11 @@
 				7B24C0471BC571B300582D35 /* Resources */,
 			);
 			buildRules = (
+				3882BBBC1C4D709B0062EB29 /* PBXBuildRule */,
+				3882BBBB1C4D70720062EB29 /* PBXBuildRule */,
+				3882BBBA1C4D70560062EB29 /* PBXBuildRule */,
+				3882BBB91C4D70530062EB29 /* PBXBuildRule */,
+				3882BBB81C4D704F0062EB29 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -125,6 +178,7 @@
 				TargetAttributes = {
 					7B24C0481BC571B300582D35 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 52SPX74RY4;
 					};
 				};
 			};
@@ -249,7 +303,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_USE_OPTIMIZATION_PROFILE = YES;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_HEADERS_RUN_UNIFDEF = YES;
 				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
@@ -270,6 +325,7 @@
 				MODULE_VERSION = 1.0.0d1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sentinelone.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -281,7 +337,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_USE_OPTIMIZATION_PROFILE = YES;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_HEADERS_RUN_UNIFDEF = YES;
 				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
@@ -302,6 +359,7 @@
 				MODULE_VERSION = 1.0.0d1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sentinelone.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

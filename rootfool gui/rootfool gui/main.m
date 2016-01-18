@@ -2,8 +2,8 @@
 //  main.m
 //  rootfool gui
 //
-//  Created by reverser on 07/10/15.
-//  Copyright (c) 2015 Sentinel One. All rights reserved.
+//  Created by princeofdarkness76 on 01/18/16.
+//  Copyright (c) 2016 Studiogit. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
